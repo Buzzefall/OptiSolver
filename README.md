@@ -3,7 +3,7 @@ Solver for discreete value optimization problem (Traveling Salesman Problem). Us
 ___________________________________________________________________________________________________________________________________
 Use: 
 - Solver.BranchAndBound() demostrates algorithm on (pseudo?-)randomly generated matrix, 
-- Solver.BranchAndBound(List<List<int>> transportMatrix) solves problem for particular transport matrix.
+- Solver.BranchAndBound(List<List<int>> transportMatrix) solves problem for particular transport matrix. Program will read from Cities.txt in folder with .exe file of the program.
  ___________________________________________________________________________________________________________________________________
 Description of algorithm:
     
