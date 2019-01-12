@@ -1,7 +1,0 @@
-C:\General\Dev\dotNET\BonVoyage\BonVoyage\bin\x64\Release\BonVoyage.exe.config
-C:\General\Dev\dotNET\BonVoyage\BonVoyage\bin\x64\Release\BonVoyage.exe
-C:\General\Dev\dotNET\BonVoyage\BonVoyage\bin\x64\Release\BonVoyage.pdb
-C:\General\Dev\dotNET\BonVoyage\BonVoyage\obj\x64\Release\BonVoyage.csprojAssemblyReference.cache
-C:\General\Dev\dotNET\BonVoyage\BonVoyage\obj\x64\Release\BonVoyage.csproj.CoreCompileInputs.cache
-C:\General\Dev\dotNET\BonVoyage\BonVoyage\obj\x64\Release\BonVoyage.exe
-C:\General\Dev\dotNET\BonVoyage\BonVoyage\obj\x64\Release\BonVoyage.pdb

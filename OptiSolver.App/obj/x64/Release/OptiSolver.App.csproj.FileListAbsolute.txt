@@ -1,0 +1,12 @@
+C:\General\Dev\dotNET\OptiSolver\OptiSolver.App\bin\x64\Release\OptiSolver.App.exe.config
+C:\General\Dev\dotNET\OptiSolver\OptiSolver.App\bin\x64\Release\OptiSolver.App.exe
+C:\General\Dev\dotNET\OptiSolver\OptiSolver.App\bin\x64\Release\OptiSolver.App.pdb
+C:\General\Dev\dotNET\OptiSolver\OptiSolver.App\bin\x64\Release\OptiSolver.Algorithms.dll
+C:\General\Dev\dotNET\OptiSolver\OptiSolver.App\bin\x64\Release\OptiSolver.Data.dll
+C:\General\Dev\dotNET\OptiSolver\OptiSolver.App\bin\x64\Release\OptiSolver.Algorithms.pdb
+C:\General\Dev\dotNET\OptiSolver\OptiSolver.App\bin\x64\Release\OptiSolver.Data.pdb
+C:\General\Dev\dotNET\OptiSolver\OptiSolver.App\obj\x64\Release\OptiSolver.App.csprojAssemblyReference.cache
+C:\General\Dev\dotNET\OptiSolver\OptiSolver.App\obj\x64\Release\OptiSolver.App.csproj.CoreCompileInputs.cache
+C:\General\Dev\dotNET\OptiSolver\OptiSolver.App\obj\x64\Release\OptiSolver.App.csproj.CopyComplete
+C:\General\Dev\dotNET\OptiSolver\OptiSolver.App\obj\x64\Release\OptiSolver.App.exe
+C:\General\Dev\dotNET\OptiSolver\OptiSolver.App\obj\x64\Release\OptiSolver.App.pdb
