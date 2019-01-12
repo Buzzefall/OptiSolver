@@ -1,5 +1,5 @@
 # Voyager
-Solver for discreete value optimization problem (Traveling Salesman Problem). Uses "Branch and Bound" (BnB) method.
+Solver for discrete value optimization problem (Traveling Salesman Problem). Uses "Branch and Bound" (BnB) method.
 ___________________________________________________________________________________________________________________________________
 Use: 
 - Solver.BranchAndBound() demostrates algorithm on (pseudo?-)randomly generated matrix, 
