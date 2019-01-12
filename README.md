@@ -1,4 +1,4 @@
-# Voyager
+# OptiSolver
 Solver for discrete value optimization problem (Traveling Salesman Problem). Uses "Branch and Bound" (BnB) method.
 Probably, will add some more problems and algorithms in the future.
 ___________________________________________________________________________________________________________________________________
