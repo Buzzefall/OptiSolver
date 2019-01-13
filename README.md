@@ -9,9 +9,9 @@ Probably, will add some more problems and algorithms in the future.
 
 ## Description of algorithm:
   
-  1. *Find upper and lower bound in branch (or at the start or the tree of solution set); Discard this branch if it contains no solution, or lower bound is worse than record solution cost;**
+  1. *Find upper and lower bound in branch (or at the start or the tree of solution set); **If** this branch contains no solution, or Lower Bound is less than **record solution cost** - discard this branch;
   
-  2. **If** *there is no record - set new record solution. **If** there is a new record - remember new record solution;*
+  2. **If** *there is no record - set **new record solution**. **If** there is a new record - remember **new record solution**;*
   **If** *Lower Bound == Upper Bound => discard this branch, as we found best possible solution in it (locally optimal); Return the current record solution;
  **Else** continue;*
   
