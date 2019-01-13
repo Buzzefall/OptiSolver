@@ -478,7 +478,7 @@ namespace OptiSolver.Algorithms
                 solution.AppendLine("#################################################################");
                 solution.AppendLine();
 
-                using (var fs = new System.IO.StreamWriter("Solutions.txt", true, Encoding.Unicode))
+                using (var fs = new System.IO.StreamWriter($"Solutions [{matrix.Length}x{matrix.Length}].txt", true, Encoding.Unicode))
                 {
                     fs.Write(solution);
                 }
