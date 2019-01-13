@@ -8,7 +8,7 @@ Probably, will add some more problems and algorithms in the future.
 - *Solver.BranchAndBound(int[][] transportMatrix)* solves problem for particular transport matrix. Program will read from Cities.txt in the Input folder which is near .exe file of the program.
 
 ## Description of algorithm:
-  '''  
+  
   1. *Find upper and lower bound in branch (or at the start or the tree of solution set); Discard this branch if it contains no solution, or lower bound is worse than record solution cost;**
 
     
@@ -23,7 +23,7 @@ Probably, will add some more problems and algorithms in the future.
   
   At each iteration method uses a greedy algorithm to find solution to use it as Upper Bound of optimal solution: "go by the
   shortest way possible to the next city, until you solve problem (TSP)".
-  '''
+  
   Lower Bound is being found as MIN {
                                      SUM[rows](row -> minimal element in each row), 
                                      SUM[columns](column -> minimal subtraction of element and minimal element in row)
