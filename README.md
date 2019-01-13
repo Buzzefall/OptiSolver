@@ -24,9 +24,10 @@ Probably, will add some more problems and algorithms in the future.
   At each iteration method uses a greedy algorithm to find solution to use it as Upper Bound of optimal solution: "go by the
   shortest way possible to the next city, until you solve problem (TSP)".
   
-  Lower Bound is being found as MIN {
+  Lower Bound is being found as 
+  MIN {
                                      SUM[rows](row -> minimal element in each row), 
                                      SUM[columns](column -> minimal subtraction of element and minimal element in row)
-                                    }.
+      }.
   
   
