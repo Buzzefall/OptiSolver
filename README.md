@@ -4,7 +4,7 @@ Probably, will add some more problems and algorithms in the future.
 ___________________________________________________________________________________________________________________________________
 Use: 
 - Solver.BranchAndBound() demostrates algorithm on (pseudo?-)randomly generated matrix, 
-- Solver.BranchAndBound(int[][] transportMatrix) solves problem for particular transport matrix. Program will read from Cities.txt in folder with .exe file of the program.
+- Solver.BranchAndBound(int[][] transportMatrix) solves problem for particular transport matrix. Program will read from Cities.txt in the Input folder which is near .exe file of the program.
  ___________________________________________________________________________________________________________________________________
 Description of algorithm:
     
