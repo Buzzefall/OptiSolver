@@ -9,7 +9,7 @@ Probably, will add some more problems and algorithms in the future.
 
 ## Description of algorithm:
   '''  
-  1. **Find upper and lower bound in branch (or at the start or the tree of solution set); Discard this branch if it contains no solution, or lower bound is worse than record solution cost;**
+  1. *Find upper and lower bound in branch (or at the start or the tree of solution set); Discard this branch if it contains no solution, or lower bound is worse than record solution cost;**
 
     
   2. *If there is no record - set new record solution. If there is a new record - remember new record solution.*
