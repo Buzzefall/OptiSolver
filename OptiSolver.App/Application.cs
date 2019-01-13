@@ -3,30 +3,35 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-
 using OptiSolver.Data;
 using OptiSolver.Algorithms;
 
 namespace OptiSolver
 {
-    public class OptiSolverApp
+    public class Application
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            int[][] transportMatrix;
             using (var reader = new StreamReader("Input/Cities.txt", Encoding.UTF8, false))
             {
-                var matrix = new List<IEnumerable<int>>();
-                while (!reader.EndOfStream)
+                if (reader.EndOfStream)
                 {
-                    var row = reader.ReadLine()?.Split(' ').Select(int.Parse);
-                    matrix.Add(new List<int>(row ?? throw new InvalidOperationException()));
+                    TSPSolver.BranchAndBound();
                 }
+                else
+                {
+                    var matrix = new List<IEnumerable<int>>();
+                    while (!reader.EndOfStream)
+                    {
+                        var row = reader.ReadLine()?.Split(' ').Select(int.Parse);
+                        matrix.Add(new List<int>(row ?? throw new InvalidOperationException()));
+                    }
 
-                transportMatrix = matrix.Select(row => row.ToArray()).ToArray();
+                    var transportMatrix = matrix.Select(row => row.ToArray()).ToArray();
+                    TSPSolver.BranchAndBound(transportMatrix);
+                }
             }
-            
-            var result = TSPSolver.BranchAndBound(transportMatrix);
+
         }
     }
 }
