@@ -25,9 +25,9 @@ Probably, will add some more problems and algorithms in the future.
   shortest way possible to the next city, until you solve problem (TSP)".
   
   Lower Bound is being found as 
-  MIN {
+  `MIN {
                                      SUM[rows](row -> minimal element in each row), 
                                      SUM[columns](column -> minimal subtraction of element and minimal element in row)
-      }.
+      }`
   
   
