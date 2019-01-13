@@ -11,12 +11,12 @@ Probably, will add some more problems and algorithms in the future.
   
   1. *Find upper and lower bound in branch (or at the start or the tree of solution set); Discard this branch if it contains no solution, or lower bound is worse than record solution cost;**
   
-  2. ***If** there is no record - set new record solution. **If** there is a new record - remember new record solution.*
- ***If** Lower Bound == Upper Bound => discard this branch, as we found best possible solution in it (locally optimal); Return the current record solution;
- ***Else** continue;
+  2. **If** *there is no record - set new record solution. **If** there is a new record - remember new record solution;*
+  **If** *Lower Bound == Upper Bound => discard this branch, as we found best possible solution in it (locally optimal); Return the current record solution;
+ **Else** continue;*
   
   3. ***If** no cities visited, try to add lowest "cost" edge for the transport graph (defined by transport matrix); 
-  ***Else** create two branches if no optimal solution has been found; One branch includes edge x, the second - excludes x (this divides solution subset in two parts, so the algorithm is kinda binary search). The new edge is chosen greedy way too;*
+  **Else** create two branches if no optimal solution has been found; One branch includes edge x, the second - excludes x (this divides solution subset in two parts, so the algorithm is kinda binary search). The new edge is chosen greedy way too;*
   
   5. *Repeat in each branch 1-4;*
   
