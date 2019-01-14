@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using OptiSolver.Data;
 using OptiSolver.Algorithms;
 
 namespace OptiSolver
@@ -20,11 +19,11 @@ namespace OptiSolver
                 }
                 else
                 {
-                    var matrix = new List<IEnumerable<int>>();
+                    var matrix = new List<List<int>>();
                     while (!reader.EndOfStream)
                     {
-                        var row = reader.ReadLine()?.Split(' ').Select(int.Parse);
-                        matrix.Add(new List<int>(row ?? throw new InvalidOperationException()));
+                        var row = reader.ReadLine()?.Split(' ').Select(int.Parse).ToList();
+                        matrix.Add(row ?? throw new InvalidOperationException());
                     }
 
                     var transportMatrix = matrix.Select(row => row.ToArray()).ToArray();
