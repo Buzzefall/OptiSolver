@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using OptiSolver.Data;
 
 namespace OptiSolver.Algorithms
@@ -334,9 +333,35 @@ namespace OptiSolver.Algorithms
 
             #region Cropping
 
+            if (recordPath.Cost > upperBound)
+                recordPath = greedyPath;
+
             if (lowerBound >= recordPath.Cost)
             {
-                var msg = $"[X] Discarding this branch (same record: {recordPath.Cost})";
+                var msg = $"[X] Discarding this branch (record: {recordPath.Cost})";
+
+                if (isRoot)
+                {
+                    msg = $"[V] One-step solution! (cost: {recordPath.Cost})";
+                    Report(recordPath, lowerBound, excluded, starts, ends, msg);
+
+                    solution.AppendLine(
+                        "---------------------------------------------------------------------------------------------------------------------");
+                    solution.AppendLine($"[OK] Solution found: [{recordPath}] (Cost: {recordPath.Cost})");
+                    solution.AppendLine();
+                    solution.AppendLine("#################################################################");
+                    solution.AppendLine("#################################################################");
+                    solution.AppendLine("#################################################################");
+                    solution.AppendLine();
+
+                    using (var fs = new System.IO.StreamWriter($"Solutions [{matrix.Length}x{matrix.Length}].txt", true,
+                        Encoding.Unicode))
+                    {
+                        fs.Write(solution);
+                    }
+
+                    return recordPath;
+                }
 
                 Report(greedyPath, lowerBound, excluded, starts, ends, msg);
 
@@ -354,9 +379,6 @@ namespace OptiSolver.Algorithms
                 // new record cost, upperBound < recordPath.Cost 
                 return greedyPath;
             }
-
-            if (recordPath.Cost > upperBound)
-                recordPath = greedyPath;
 
             const string message = "[..] Continuing branching (LB < record)";
             Report(greedyPath, lowerBound, excluded, starts, ends, message);
@@ -467,6 +489,7 @@ namespace OptiSolver.Algorithms
 
             newRecordPath = BranchAndBound(matrix, newExcluded, starts, ends, recordPath);
 
+           
             if (isRoot)
             {
                 solution.AppendLine(
@@ -478,7 +501,8 @@ namespace OptiSolver.Algorithms
                 solution.AppendLine("#################################################################");
                 solution.AppendLine();
 
-                using (var fs = new System.IO.StreamWriter($"Solutions [{matrix.Length}x{matrix.Length}].txt", true, Encoding.Unicode))
+                using (var fs = new System.IO.StreamWriter($"Solutions [{matrix.Length}x{matrix.Length}].txt", true,
+                    Encoding.Unicode))
                 {
                     fs.Write(solution);
                 }
