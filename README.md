@@ -24,7 +24,7 @@ Probably, will add some more problems and algorithms in the future.
   5. *Repeat in each branch steps 1-4 by recursive call of the function first for the left branch, then for the right.*
   
   At each iteration method uses a greedy algorithm to find solution to use it as Upper Bound of optimal solution: "go by the
-  shortest way possible to the next city, until you solve problem (TSP)".
+  shortest way possible to the next city, until you solve problem (TSP)" (since lowest cost solution is optimal, any other will do as Upper Bound).
   
   
   Lower Bound is being found as 
