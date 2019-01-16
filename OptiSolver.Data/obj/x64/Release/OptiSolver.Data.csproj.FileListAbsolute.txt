@@ -1,5 +1,0 @@
-C:\General\Dev\dotNET\OptiSolver\OptiSolver.Data\bin\x64\Release\OptiSolver.Data.dll
-C:\General\Dev\dotNET\OptiSolver\OptiSolver.Data\bin\x64\Release\OptiSolver.Data.pdb
-C:\General\Dev\dotNET\OptiSolver\OptiSolver.Data\obj\x64\Release\OptiSolver.Data.csproj.CoreCompileInputs.cache
-C:\General\Dev\dotNET\OptiSolver\OptiSolver.Data\obj\x64\Release\OptiSolver.Data.dll
-C:\General\Dev\dotNET\OptiSolver\OptiSolver.Data\obj\x64\Release\OptiSolver.Data.pdb

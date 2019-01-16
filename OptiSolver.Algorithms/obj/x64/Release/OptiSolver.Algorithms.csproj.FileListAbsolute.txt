@@ -1,9 +1,0 @@
-C:\General\Dev\dotNET\OptiSolver\OptiSolver.Algorithms\bin\x64\Release\OptiSolver.Algorithms.dll
-C:\General\Dev\dotNET\OptiSolver\OptiSolver.Algorithms\bin\x64\Release\OptiSolver.Algorithms.pdb
-C:\General\Dev\dotNET\OptiSolver\OptiSolver.Algorithms\bin\x64\Release\OptiSolver.Data.dll
-C:\General\Dev\dotNET\OptiSolver\OptiSolver.Algorithms\bin\x64\Release\OptiSolver.Data.pdb
-C:\General\Dev\dotNET\OptiSolver\OptiSolver.Algorithms\obj\x64\Release\OptiSolver.Algorithms.csprojAssemblyReference.cache
-C:\General\Dev\dotNET\OptiSolver\OptiSolver.Algorithms\obj\x64\Release\OptiSolver.Algorithms.csproj.CoreCompileInputs.cache
-C:\General\Dev\dotNET\OptiSolver\OptiSolver.Algorithms\obj\x64\Release\OptiSolver.Algorithms.csproj.CopyComplete
-C:\General\Dev\dotNET\OptiSolver\OptiSolver.Algorithms\obj\x64\Release\OptiSolver.Algorithms.dll
-C:\General\Dev\dotNET\OptiSolver\OptiSolver.Algorithms\obj\x64\Release\OptiSolver.Algorithms.pdb
