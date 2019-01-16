@@ -2,12 +2,12 @@
 Solver for discrete value optimization problem (Traveling Salesman Problem). Uses "Branch and Bound" (BnB) method.
 Probably, will add some more problems and algorithms in the future. 
 
-## Use: 
+## Use 
 
 - **Solver.BranchAndBound()** demostrates algorithm on (pseudo?-)randomly generated matrix, 
 - **Solver.BranchAndBound(int[][] transportMatrix)** solves problem for particular transport matrix. Program will read from Cities.txt in the Input folder which is near .exe file of the program.
 
-## Description of algorithm:
+## Description of algorithm
   
   1. *Find **Upper Bound (UB)** and **lower Bound (LB)** in branch (or at the start or the tree of solution set);* 
   **If** *this branch contains no solution, or **LB** is more than record solution cost (lowest **UB** found) - discard this branch and return same record solution.*
