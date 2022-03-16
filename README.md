@@ -9,7 +9,7 @@ Probably, will add some more problems and algorithms in the future.
 
 ## Algorithm description
 
-Greedy algorithm with branch-and-bound heuristic.
+Greedy algorithm with branch-and-bound heuristic (divide & conqueror).
   
   1. Find **Upper Bound (UB)** and **lower Bound (LB)** in branch (or at the start or the tree of solution set); 
   **If** this branch contains no solution, or **LB** is more than record solution cost (lowest **UB** found) - discard this branch and return same record solution.
